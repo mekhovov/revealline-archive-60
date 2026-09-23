@@ -1,0 +1,93 @@
+.github/workflows/deploy.yml
+  s_fd40ee1ed089f5::t_8b187a046e364f 1-92
+.gitignore
+  s_fd40ee1ed089f5::t_5ac7c9ab387bfa 1-2
+authority/archive60-absence-original.json
+  s_fd40ee1ed089f5::t_bc9e66810e69f2 1
+authority/archive60-absence-stderr.txt
+  s_fd40ee1ed089f5::t_491a2fcf8f2846 1
+authority/main-ref-original.json
+  s_fd40ee1ed089f5::t_b7fa4bb089f0b2 1
+authority/preserved-release-original.json
+  s_fd40ee1ed089f5::t_7f6e8f02d1bcff 1
+authority/preserved-source-commit-original.json
+  s_fd40ee1ed089f5::t_dce3b96c48485f 1
+authority/preserved-tag-original.json
+  s_fd40ee1ed089f5::t_21a7834f5a2cd9 1
+authority/preserved-tag-ref-original.json
+  s_fd40ee1ed089f5::t_fdacdf12df7227 1
+authority/reviewed-release-descriptors.json
+  s_fd40ee1ed089f5::t_51982c59d07a3f 1-61
+authority/successor-release-original.json
+  s_fd40ee1ed089f5::t_fa9e973080e700 1
+authority/successor-source-commit-original.json
+  s_fd40ee1ed089f5::t_ea2a8b2a31d598 1
+authority/successor-tag-original.json
+  s_fd40ee1ed089f5::t_1d96a1a177d5e5 1
+authority/successor-tag-ref-original.json
+  s_fd40ee1ed089f5::t_9ca8dfdf80b513 1
+authority/v0910-native-availability-original.json
+  s_fd40ee1ed089f5::t_3cc3b317ed5335 1-138
+authority/v0910-public-acceptance-pr295-original.json
+  s_fd40ee1ed089f5::t_91a296c51c21dc 1
+authority/v0910-public-acceptance-review-original.json
+  s_fd40ee1ed089f5::t_87008ecf3008ea 1-209
+authority/v0910-small-assets-review-original.json
+  s_fd40ee1ed089f5::t_1fc155e0d66e6e 1-73
+expected-inventory.json
+  s_fd40ee1ed089f5::t_064a989ed0a23e 1-5465
+index.html
+  s_fd40ee1ed089f5::t_28d8464ce55cbb 1-22
+input-authority.json
+  s_fd40ee1ed089f5::t_8d2e0e9c3ee27f 1-172
+metadata/v0.91.0/distribution.zip.sha256
+  s_fd40ee1ed089f5::t_390a52be121c27 1
+metadata/v0.91.0/manifest.json
+  s_fd40ee1ed089f5::t_0c360bc1d94fd7 1-5429
+metadata/v0.91.0/release.json
+  s_fd40ee1ed089f5::t_1a7a00ddb642e9 1-10
+metadata/v0.91.0/source-qualification.json
+  s_fd40ee1ed089f5::t_ee99ea687b6787 1-421
+metadata/v0.91.0/test-policy.json
+  s_fd40ee1ed089f5::t_f4be07addf4fdd 1-8
+releases/index.html
+  s_fd40ee1ed089f5::t_00f0132e5dfaf4 1-16
+source-lock.json
+  s_fd40ee1ed089f5::t_3380ca6e968c00 1-37
+tools/configure.py
+  s_fd40ee1ed089f5::t_be6d5d5f68a21d 1-148
+tools/prepare.py
+  s_fd40ee1ed089f5::t_d6b3058accec09 1-93
+tools/qualification_v2.py
+  s_fd40ee1ed089f5::t_2730a1803ede0a 1-113
+tools/test_prepare.py
+  s_604cb849a92c35::t_16eb0c063a7880 1-310
+tools/test_verify.py
+  s_fd40ee1ed089f5::t_ea0d62e55d5d83 1-49
+tools/verify.py
+  s_fd40ee1ed089f5::t_ab1c746775fbfe 1-147
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4ac4bc6e206e469f6997414d7dab27ce06389580",
+  "prompts": {},
+  "sessions": {
+    "s_604cb849a92c35": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a6f8-7a17-7540-89af-294ef043fd86",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Oleksandr Mekhovov <oleksandr.mekhovov@coupa.com>"
+    },
+    "s_fd40ee1ed089f5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0bffc-f5ed-7822-932c-55295e0a8d37",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Oleksandr Mekhovov <oleksandr.mekhovov@coupa.com>"
+    }
+  }
+}

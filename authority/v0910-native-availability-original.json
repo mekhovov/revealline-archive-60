@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-09-23T06:39:23.183430+00:00",
+  "kind": "scoped native public availability with fresh Versus visual specimen",
+  "status": "PASS within bounded observed scope",
+  "version": "v0.91.0",
+  "sourceRevision": "e771ca71b0e710ea878d54f8ff370707f7428ef8",
+  "publisherRevision": "3a7244dbd6220c8e802ac4a7c2ebf3a02173da1d",
+  "deployment": 6607801868,
+  "deploymentStatus": 18713811980,
+  "canonicalReleaseMarker": "https://mekhovov.github.io/revealline/releases/v0.91.0/release.json",
+  "entry": "https://mekhovov.github.io/revealline/",
+  "gameURL": "https://mekhovov.github.io/revealline/releases/v0.91.0/site/game/",
+  "browser": "Codex in-app browser, browser 1, temporary tab 6",
+  "steps": [
+    {
+      "action": "Open ordinary root once and observe title",
+      "result": "PASS",
+      "observed": "Root resolves v0.91.0; title91missions; Standard policy explicitly describes straight flight and collision-only angle variation; Continue Prologue / Choose your share; Sound off."
+    },
+    {
+      "action": "Open Workshop and expand extras",
+      "result": "PASS",
+      "observed": "About & build information reachable."
+    },
+    {
+      "action": "Open About and expand history",
+      "result": "PASS",
+      "observed": "135 preserved builds, v0.91 current."
+    },
+    {
+      "action": "Select preserved v0.90",
+      "result": "PASS",
+      "observed": "OPEN BUILD href targets Archive59/releases/v0.90.0/site/game/; link not launched."
+    },
+    {
+      "action": "Browser Back",
+      "result": "PASS",
+      "observed": "v0.91 title restored with Difficulty focus and original visible Continue label."
+    },
+    {
+      "action": "Enter Versus via title mode link",
+      "result": "PASS",
+      "observed": "Fresh Start race lobby, no existing Resume attempt. Prologue / First return; Arcade / Horizon School; Standard; no race countdown. Shared board rules/collision-only policy shown."
+    },
+    {
+      "action": "Start a fresh observation race",
+      "result": "PASS",
+      "observed": "Two running boards with matching field enemies; both players stationary at safe upper boundary; each 0.0%,3lives,0points."
+    },
+    {
+      "action": "Observe eight sequential visible frames",
+      "result": "PASS as visual sample only",
+      "observed": "Both displayed enemies move diagonally toward upper boundary, reach it near samples4\u20135, then depart downward/right in samples6\u20137. No open-field course change visible within this short sample."
+    },
+    {
+      "action": "Escape pauses both boards",
+      "result": "PASS",
+      "observed": "Both boards paused; Resume race explicit."
+    },
+    {
+      "action": "Select Solo return",
+      "result": "PASS",
+      "observed": "Explicit warning that the unsaved Versus attempt will be discarded; Stay keeps both paused."
+    },
+    {
+      "action": "Discard only newly created observation attempt",
+      "result": "PASS",
+      "observed": "Returned Solo v0.91 title with same original Continue Prologue / Choose your share, Standard and Sound off."
+    },
+    {
+      "action": "Inspect captured warning/error console",
+      "result": "PASS",
+      "observed": "Empty array at warn/error levels, limit100."
+    },
+    {
+      "action": "Read canonical public marker once via HTTP",
+      "result": "PASS",
+      "observed": "v0.91.0 and exact e771ca71 source confirmed; download points to v0.91.0/site/distribution.zip."
+    }
+  ],
+  "stepCount": 13,
+  "productFailures": [],
+  "automationFailures": [],
+  "retries": 0,
+  "reloads": 0,
+  "rootOpenings": 1,
+  "consoleResult": {
+    "levels": [
+      "warn",
+      "error"
+    ],
+    "limit": 100,
+    "entries": []
+  },
+  "visualSamples": {
+    "capture": "Eight inline browser screenshots; requested clip x12 y244 width620 height310; emitted frames visibly included both boards. No saved PNG or pixel-trajectory measurement claimed.",
+    "timestamps": [
+      "2026-09-23T06:38:03.306Z",
+      "2026-09-23T06:38:03.366Z",
+      "2026-09-23T06:38:03.469Z",
+      "2026-09-23T06:38:03.571Z",
+      "2026-09-23T06:38:03.622Z",
+      "2026-09-23T06:38:03.673Z",
+      "2026-09-23T06:38:03.774Z",
+      "2026-09-23T06:38:03.875Z"
+    ],
+    "bytes": [
+      12246,
+      12224,
+      12200,
+      12220,
+      12213,
+      12213,
+      12205,
+      12195
+    ]
+  },
+  "publicMarker": {
+    "version": "v0.91.0",
+    "sourceRevision": "e771ca71b0e710ea878d54f8ff370707f7428ef8",
+    "sourceArchiveSha256": "fff248f44a69d998a809984680c1f0077360bfbd96e02738a824a0c7059f1cd1",
+    "distributionSha256": "ff7615741415381e63cd386b9cd2cf777b8e5baa5e77c50f87b3e25bf4ed25f1",
+    "manifestSha256": "69b5c42c1722622ffaaeb0b441993e24b9eaee398fb84514eb76f1e7adf9d9a0",
+    "play": "v0.91.0/site/game/",
+    "download": "v0.91.0/site/distribution.zip"
+  },
+  "limits": [
+    "Fresh gp4 attribution follows verified deployed source and fresh Start race path/policy; no hidden engine state was inspected.",
+    "Visual samples support the observed top-boundary bounce; they do not prove continuous heading, <=8 degree variation, determinism, all collisions or absence of changes between screenshots. The separate52 deterministic source checks provide invariant evidence and were not rerun here.",
+    "No extended gameplay, capture, win/Next, offline, physical-device, audio or balance matrix qualification.",
+    "Only newly created zero-progress Versus attempt discarded using explicit UI; retained Solo was never resumed or replaced. Visible Continue equality is not exact-save-byte verification.",
+    "Archive59 href verified; archive loading independently covered by archive59-v0900-native-availability.json, not rerun here.",
+    "Download href/marker inspected; download bytes were not fetched or audited in this native lane.",
+    "Publisher/deployment pins supplied by coordinator; source/version additionally confirmed from public marker.",
+    "No source/release/selector or gameplay settings mutation."
+  ]
+}

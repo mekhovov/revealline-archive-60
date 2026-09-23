@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "status": "APPROVED_SCOPED_V0910_PUBLIC_ACCEPTANCE",
+  "reviewedAt": "2026-09-23T06:54:05.591Z",
+  "networkRequests": 0,
+  "version": "v0.91.0",
+  "sourceRevision": "e771ca71b0e710ea878d54f8ff370707f7428ef8",
+  "publisherRevision": "3a7244dbd6220c8e802ac4a7c2ebf3a02173da1d",
+  "publisherTree": "25bff5c041db9a3ae0f692465e4c017a9372ffa7",
+  "productionRun": 35826568244,
+  "deployment": 6607801868,
+  "deploymentStatus": 18713811980,
+  "audit": {
+    "run": 35828373886,
+    "head": "4b082612222d23d8b8b2e977ea8513a96b5b23eb",
+    "artifactId": 10736062288,
+    "artifactBytes": 997863,
+    "artifactSha256": "93e7c034769f79f499c518b643d26bb4407899cf943293387a5e268fa1447dbb",
+    "extractionReviewSha256": "f744a3dd1d1acf3e06db4dfe226b755d2e8caade54715405ec298016af23c2c7",
+    "rawRowReadbackSha256": "face48fbb624bd5ca4868fa097e6b4e2eb13f351eb78097c4a365dcf0c0b6e91",
+    "httpReportSha256": "26c3d472076a96b518d9382259bc9d6dff0d2318f4ecdf35e1f67784a9a54bbc",
+    "resultsSha256": "c0479063520ac1847aedef67c95dff2aaa00eab1c419cba5b9c79f2165a34314",
+    "attemptsSha256": "c0479063520ac1847aedef67c95dff2aaa00eab1c419cba5b9c79f2165a34314",
+    "inventorySha256": "69c462094951b78263f854084ea653d258c7e15005c1a23506a5643d6e54613e",
+    "requestSha256": "b4c1945a20ecc2804bf01b7766aa70144cba7307e009bbf44b450e0f3a55e0b2",
+    "startedAt": "2026-09-23T06:47:04.277486+00:00",
+    "finishedAt": "2026-09-23T06:49:45.079319+00:00",
+    "counts": {
+      "files": 4063,
+      "bytes": 616196229,
+      "attempts": 4063,
+      "failedFiles": 0,
+      "failedAttempts": 0,
+      "retries": 0,
+      "skips": 0
+    },
+    "independentReview": "All14ZIPmembersCRCchecked and byte-matched retained extraction. Every final/attempt row independently reconciled with unique inventory path,exactURL,200,MIME,identityencoding,optionalContentLength,bytes,SHA256,attempt1,timing and bounded duration; helpers/request match reviewed execution."
+  },
+  "postAuthority": {
+    "path": "final-live-authority.json",
+    "sha256": "01701872d20806950721065e448ae7b3aedd4e280e5b1f6a2244e71d57f9db37",
+    "checkedAt": "2026-09-23T06:51:12.768Z",
+    "verification": "All six retained original response pins, successful command receipts and empty stderr independently checked. Main/controller/tree, production run, latest Pages deployment/status and exact public root marker unchanged after completed audit."
+  },
+  "native": {
+    "path": ".cache/ux-delivery-review-20260922/v0910-public-native-availability.json",
+    "sha256": "e29db58944d75b90b56f526427e485746dde4104b10f92fd63b54dc7a5d4eb9f",
+    "steps": 13,
+    "productFailures": 0,
+    "automationFailures": 0,
+    "retries": 0,
+    "reloads": 0,
+    "receipt": {
+      "schemaVersion": 1,
+      "observedAt": "2026-09-23T06:39:23.183430+00:00",
+      "kind": "scoped native public availability with fresh Versus visual specimen",
+      "status": "PASS within bounded observed scope",
+      "version": "v0.91.0",
+      "sourceRevision": "e771ca71b0e710ea878d54f8ff370707f7428ef8",
+      "publisherRevision": "3a7244dbd6220c8e802ac4a7c2ebf3a02173da1d",
+      "deployment": 6607801868,
+      "deploymentStatus": 18713811980,
+      "canonicalReleaseMarker": "https://mekhovov.github.io/revealline/releases/v0.91.0/release.json",
+      "entry": "https://mekhovov.github.io/revealline/",
+      "gameURL": "https://mekhovov.github.io/revealline/releases/v0.91.0/site/game/",
+      "browser": "Codex in-app browser, browser 1, temporary tab 6",
+      "steps": [
+        {
+          "action": "Open ordinary root once and observe title",
+          "result": "PASS",
+          "observed": "Root resolves v0.91.0; title91missions; Standard policy explicitly describes straight flight and collision-only angle variation; Continue Prologue / Choose your share; Sound off."
+        },
+        {
+          "action": "Open Workshop and expand extras",
+          "result": "PASS",
+          "observed": "About & build information reachable."
+        },
+        {
+          "action": "Open About and expand history",
+          "result": "PASS",
+          "observed": "135 preserved builds, v0.91 current."
+        },
+        {
+          "action": "Select preserved v0.90",
+          "result": "PASS",
+          "observed": "OPEN BUILD href targets Archive59/releases/v0.90.0/site/game/; link not launched."
+        },
+        {
+          "action": "Browser Back",
+          "result": "PASS",
+          "observed": "v0.91 title restored with Difficulty focus and original visible Continue label."
+        },
+        {
+          "action": "Enter Versus via title mode link",
+          "result": "PASS",
+          "observed": "Fresh Start race lobby, no existing Resume attempt. Prologue / First return; Arcade / Horizon School; Standard; no race countdown. Shared board rules/collision-only policy shown."
+        },
+        {
+          "action": "Start a fresh observation race",
+          "result": "PASS",
+          "observed": "Two running boards with matching field enemies; both players stationary at safe upper boundary; each 0.0%,3lives,0points."
+        },
+        {
+          "action": "Observe eight sequential visible frames",
+          "result": "PASS as visual sample only",
+          "observed": "Both displayed enemies move diagonally toward upper boundary, reach it near samples4–5, then depart downward/right in samples6–7. No open-field course change visible within this short sample."
+        },
+        {
+          "action": "Escape pauses both boards",
+          "result": "PASS",
+          "observed": "Both boards paused; Resume race explicit."
+        },
+        {
+          "action": "Select Solo return",
+          "result": "PASS",
+          "observed": "Explicit warning that the unsaved Versus attempt will be discarded; Stay keeps both paused."
+        },
+        {
+          "action": "Discard only newly created observation attempt",
+          "result": "PASS",
+          "observed": "Returned Solo v0.91 title with same original Continue Prologue / Choose your share, Standard and Sound off."
+        },
+        {
+          "action": "Inspect captured warning/error console",
+          "result": "PASS",
+          "observed": "Empty array at warn/error levels, limit100."
+        },
+        {
+          "action": "Read canonical public marker once via HTTP",
+          "result": "PASS",
+          "observed": "v0.91.0 and exact e771ca71 source confirmed; download points to v0.91.0/site/distribution.zip."
+        }
+      ],
+      "stepCount": 13,
+      "productFailures": [],
+      "automationFailures": [],
+      "retries": 0,
+      "reloads": 0,
+      "rootOpenings": 1,
+      "consoleResult": {
+        "levels": [
+          "warn",
+          "error"
+        ],
+        "limit": 100,
+        "entries": []
+      },
+      "visualSamples": {
+        "capture": "Eight inline browser screenshots; requested clip x12 y244 width620 height310; emitted frames visibly included both boards. No saved PNG or pixel-trajectory measurement claimed.",
+        "timestamps": [
+          "2026-09-23T06:38:03.306Z",
+          "2026-09-23T06:38:03.366Z",
+          "2026-09-23T06:38:03.469Z",
+          "2026-09-23T06:38:03.571Z",
+          "2026-09-23T06:38:03.622Z",
+          "2026-09-23T06:38:03.673Z",
+          "2026-09-23T06:38:03.774Z",
+          "2026-09-23T06:38:03.875Z"
+        ],
+        "bytes": [
+          12246,
+          12224,
+          12200,
+          12220,
+          12213,
+          12213,
+          12205,
+          12195
+        ]
+      },
+      "publicMarker": {
+        "version": "v0.91.0",
+        "sourceRevision": "e771ca71b0e710ea878d54f8ff370707f7428ef8",
+        "sourceArchiveSha256": "fff248f44a69d998a809984680c1f0077360bfbd96e02738a824a0c7059f1cd1",
+        "distributionSha256": "ff7615741415381e63cd386b9cd2cf777b8e5baa5e77c50f87b3e25bf4ed25f1",
+        "manifestSha256": "69b5c42c1722622ffaaeb0b441993e24b9eaee398fb84514eb76f1e7adf9d9a0",
+        "play": "v0.91.0/site/game/",
+        "download": "v0.91.0/site/distribution.zip"
+      },
+      "limits": [
+        "Fresh gp4 attribution follows verified deployed source and fresh Start race path/policy; no hidden engine state was inspected.",
+        "Visual samples support the observed top-boundary bounce; they do not prove continuous heading, <=8 degree variation, determinism, all collisions or absence of changes between screenshots. The separate52 deterministic source checks provide invariant evidence and were not rerun here.",
+        "No extended gameplay, capture, win/Next, offline, physical-device, audio or balance matrix qualification.",
+        "Only newly created zero-progress Versus attempt discarded using explicit UI; retained Solo was never resumed or replaced. Visible Continue equality is not exact-save-byte verification.",
+        "Archive59 href verified; archive loading independently covered by archive59-v0900-native-availability.json, not rerun here.",
+        "Download href/marker inspected; download bytes were not fetched or audited in this native lane.",
+        "Publisher/deployment pins supplied by coordinator; source/version additionally confirmed from public marker.",
+        "No source/release/selector or gameplay settings mutation."
+      ]
+    }
+  },
+  "conclusion": "Accept v0.91 as publicly delivered within the reviewed release scope: exact frozen files available, correct public source/version, retained history, and bounded fresh gp4 visual/native flow. No further release hold for these completed checks.",
+  "limitations": [
+    "Fresh gp4 attribution follows verified deployed source and fresh Start race path/policy; no hidden engine state was inspected.",
+    "Visual samples support the observed top-boundary bounce; they do not prove continuous heading, <=8 degree variation, determinism, all collisions or absence of changes between screenshots. The separate52 deterministic source checks provide invariant evidence and were not rerun here.",
+    "No extended gameplay, capture, win/Next, offline, physical-device, audio or balance matrix qualification.",
+    "Only newly created zero-progress Versus attempt discarded using explicit UI; retained Solo was never resumed or replaced. Visible Continue equality is not exact-save-byte verification.",
+    "Archive59 href verified; archive loading independently covered by archive59-v0900-native-availability.json, not rerun here.",
+    "Download href/marker inspected; download bytes were not fetched or audited in this native lane.",
+    "Publisher/deployment pins supplied by coordinator; source/version additionally confirmed from public marker.",
+    "No source/release/selector or gameplay settings mutation.",
+    "Long automated suites remain explicitly waived, not passed. Separate52deterministic source checks are previously recorded evidence, not rerun by this review.",
+    "Fresh post-audit authority receipt covers main/controller/run/deployment/root marker; it is not a new post-audit query of GitHub tag or all nine release-asset descriptors. Original release identities/hashes remain bound by production/source qualification evidence.",
+    "Main-origin4063-file HTTP audit does not re-audit every external archive body or GitHub release download. Archive59 preservation acceptance remains separate.",
+    "Native eight screenshots are a short visual sample, not mathematical proof of continuous enemy trajectories or subjective fairness.",
+    "This review used retained evidence only; no new network requests, source/GitHub/selector changes or gameplay actions."
+  ],
+  "reviewCheckerCorrection": "Initial independent marker whole-object comparison rejected omittedformatVersion. All seven native-observed fields match the canonical original; corrected checker and reran complete retained readback. This was reviewer checker correction, not product/browser failure."
+}

@@ -48,6 +48,8 @@ jobs:
           free = shutil.disk_usage('.').free
           assert free >= 3 * 1024**3, f'At least 3 GiB free required; found {free}'
           PY
+      - name: Bind source lock and inventory to reviewed authority
+        run: python3 -B archive/tools/configure.py --check
       - name: Check extractor corruption guards and exact artifact inventory rules
         if: github.event_name == 'workflow_dispatch' && inputs.run_tests == true
         run: |
